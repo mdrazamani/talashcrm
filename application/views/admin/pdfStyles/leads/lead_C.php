@@ -1,0 +1,315 @@
+<?php $url = 'C:\wamp64\www\talash_crm\pdfStyles\iranyekan\iranyekan';?>
+
+@font-face {
+font-family: iranyekan;
+font-style: normal;
+font-weight: bold;
+src: url('<?php echo $url;?>\eot\iranyekanwebbold(fanum).eot');
+src: url('<?php echo $url;?>\eot\iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),
+/* IE6-8 */
+url('<?php echo $url;?>\woff2\iranyekanwebbold(fanum).woff2') format('woff2'),
+/* FF39+,Chrome36+, Opera24+*/
+url('<?php echo $url;?>\woff\iranyekanwebbold(fanum).woff') format('woff'),
+/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('<?php echo $url;?>\ttf\iranyekanwebbold(fanum).ttf') format('truetype');
+}
+
+@font-face {
+font-family: iranyekan;
+font-style: normal;
+font-weight: 300;
+src: url('<?php echo $url;?>\eot\iranyekanweblight(fanum).eot');
+src: url('<?php echo $url;?>\eot\iranyekanweblight(fanum).eot?#iefix') format('embedded-opentype'),
+/* IE6-8 */
+url('<?php echo $url;?>\woff2\iranyekanweblight(fanum).woff2') format('woff2'),
+/* FF39+,Chrome36+, Opera24+*/
+url('<?php echo $url;?>\woff\iranyekanweblight(fanum).woff') format('woff'),
+/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('<?php echo $url;?>\ttf\iranyekanweblight(fanum).ttf') format('truetype');
+}
+
+@font-face {
+font-family: iranyekan;
+font-style: normal;
+font-weight: normal;
+src: url('<?php echo $url;?>\eot\iranyekanwebregular(fanum).eot');
+src: url('<?php echo $url;?>\eot\iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),
+/* IE6-8 */
+url('<?php echo $url;?>\woff2\iranyekanwebregular(fanum).woff2') format('woff2'),
+/* FF39+,Chrome36+, Opera24+*/
+url('<?php echo $url;?>\woff\iranyekanwebregular(fanum).woff') format('woff'),
+/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url('<?php echo $url;?>\ttf\iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-family: iranyekan !important;
+    }
+
+    .col{
+        font-family: iranyekan;
+    }
+
+    .mz-main {
+        margin: 5px;
+        direction: rtl;
+        font-family: iranyekan !important;
+    }
+
+    div {
+        display: inline-block;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .rowf {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .margin-top-20{
+        margin-top: -20px;
+    }
+
+    .row div {
+        display: inline-block;
+    }
+
+    .eauql-d-width {
+        width: 30%;
+    }
+
+    .h22 {
+        width: 100%;
+        margin: 0px auto;
+        background-color: #ccc;
+        border: 1px solid #444;
+        text-align: center;
+        padding: 0px 0;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .font-size-12{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .h22-2 {
+        width: 100%;
+        margin: -10px 0 auto;
+        background-color: #ccc;
+        border: 1px solid #444;
+        border-bottom: none;
+        text-align: center;
+        padding: 0px 0;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    h3,
+    h2 {
+        padding: 3px;
+    }
+
+    .ppadding {
+        padding: 5px;
+    }
+
+    /* p {
+    font-size: 14px;
+    } */
+
+    .row {
+        width: 100%;
+    }
+
+    .col-4 {
+        width: 33.33333333333333%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-8 {
+        width: 66.66666666666666%;
+    }
+
+    .table {
+        border: 1px solid #444;
+        width: 100.28%;
+        border-spacing: 0;
+        vertical-align: middle;
+        border-collapse: collapse;
+        font-family: iranyekan;
+        font-size: 10px;
+    }
+
+    .th,
+    .td {
+        border: 1px solid #444;
+        vertical-align: middle;
+        text-align: center;
+        padding: 7px;
+    }
+
+    .td-2 {
+        text-align: right;
+    }
+
+    .sec5 {
+        border: 1px solid #444;
+        border-top: none;
+        width: 100%;
+    }
+
+    .sec5Div {
+        padding: 3px;
+        display: block;
+    }
+
+    .sec5Div div {
+        display: block;
+        padding: 1px;
+        font-size: 9px;
+    }
+
+
+    /*
+    .col-1 {
+    width: 8.333333333333333%;
+    }
+
+    .col-2 {
+    width: 16.66666666666667%;
+    }
+
+    .col-3 {
+    width: 25%;
+    }
+
+
+    .col-5 {
+    width: 41.66666666666667%;
+    }
+    */
+
+
+    /*
+    .col-7 {
+    width: 58.33333333333333%;
+    }
+
+
+    .col-9 {
+    width: 75%;
+    }
+
+    .col-10 {
+    width: 83.33333333333333%;
+    }
+
+    .col-11 {
+    width: 91.66666666666666%;
+    }
+
+    .col-12 {
+    width: 100%;
+    } */
+
+
+    /*
+    .row {
+    width: 12cm;
+    }
+
+    .col-1 {
+    width: 1cm;
+    }
+
+    .col-2 {
+    width: 2cm;
+    }
+
+    .col-3 {
+    width: 3cm;
+    }
+
+    .col-4 {
+    width: 4cm;
+    }
+
+    .col-5 {
+    width: 5cm;
+    }
+
+    .col-6 {
+    width: 6cm;
+    }
+
+    .col-7 {
+    width: 7cm%;
+    }
+
+    .col-8 {
+    width: 8cm;
+    }
+
+    .col-9 {
+    width: 9cm;
+    }
+
+    .col-10 {
+    width: 10cm%;
+    }
+
+    .col-11 {
+    width: 11cm;
+    }
+
+    .col-12 {
+    width: 12cm;
+    } */
+
+    .col-4--r img{
+        margin-top: 0px;
+    }
+
+    .col-4--r{
+        width: 135px;
+        height: 40px;
+    }
+    .col-4--c{
+        margin: 0  auto;
+        margin-top: -80px;
+    }
+    .col-4--l{
+        margin-right: 430px;
+        margin-top: -85px;
+    }
+    /* .logogo{
+    margin-top: -50px;
+    } */
+
+    .col-8-r{
+        padding: 3px;
+        margin-top: -10px;
+        font-size: 11px;
+    }
+
+    .col-4-r{
+        padding: 3px;
+        margin-top: -119px;
+        margin-right: 475px !important;
+        font-size: 11px;
+    }
+    .mheight{
+        width: 100%;
+        height: 50px;
+    }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jsPDF - Create PDFs with HTML5 JavaScript Library</title>
+	<style>
+		p{
+			color: blue;
+		}
+	</style>
+</head>
+	<body>
+		<div class="container">
+
+			<div id="mainC">
+
+				<div>hello mohammadreza</div>
+
+				<p>zamani</p>
+
+			</div>
+			<a id="clickbind" href="#">Click</a>
+
+		</div>
+		<!-- <script type="text/javascript" src="jsPDF-master/jspdf.js"></script> -->
+		<script src="js/main.js"></script>
+		<script>
+				function onClick() {
+				var pdf = new jsPDF('p', 'pt', 'letter');
+				pdf.canvas.height = 72 * 11;
+				pdf.canvas.width = 72 * 8.5;
+
+				pdf.fromHTML(document.getElementById('mainC'));
+
+				
+
+				pdf.setFontSize(40);
+					//dataurlnewwindow
+				//pdf.output('dataurlnewwindow');
+				// console.log(">>>"+);
+				window.open(pdf.output('bloburl'), '_blank');
+
+				//pdf.save();
+
+				};
+
+				var element = document.getElementById("clickbind");
+				element.addEventListener("click", onClick);
+		</script>
+	</body>
+</html>
