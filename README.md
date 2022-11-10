@@ -6,9 +6,14 @@
 - Composer
 - آرتیزان
 
-<!-- 1. ابتدا به محلی که میخواهید پروژه را قرار دهید بروید -->
-<!-- 2. `Shift` را نگه داشته، راست کلیک کرده و گزینه `Open Powershell window here` یا `open Command Promp window here` را بزنید -->
-<!-- 3. در پنجره باز شده، دستور `git clone https://github.com/mdrazamani/talashcrm.git` را اجرا کنید -->
+
+### مقدمات اجرای پروژه
+1. ابتدا یک دیتابیس با نام دلخواه ایجاد کنید
+2. فایل `database.sql` را داخل mysql خود وارد کنید
+3. اطلاعات مربوط به پایگاه داده را فایل `config.php` را تغییر دهید
+4. پروژه را اجرا کنید!
+
+
 ##### دانلود و به‌روزرسانی پروژه
 در پنجره cmd در مسیر مورد نظر، دستور `git clone https://github.com/mdrazamani/talashcrm.git` را اجرا کنید
 
