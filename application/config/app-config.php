@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'https://talashcrm.com/');
+define('APP_BASE_URL', 'http://localhost/talashcrm/');
 
 /*
 * --------------------------------------------------------------------------
@@ -42,15 +42,15 @@ define('APP_DB_HOSTNAME', 'localhost');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'dfvmvkux_test2');
+define('APP_DB_USERNAME', 'root');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', 'test2');
+define('APP_DB_PASSWORD', '');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'dfvmvkux_test2');
+define('APP_DB_NAME', 'talashcrm');
 
 /**
  * @since  2.3.0
