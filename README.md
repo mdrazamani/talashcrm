@@ -16,7 +16,7 @@
 ------------------------------
 
 ### دانلود و به‌روزرسانی پروژه
-در پنجره cmd در مسیر مورد نظر، دستور `git clone https://github.com/mdrazamani/talashcrm.git` را اجرا کنید
+در پنجره cmd در مسیر localhost وب سرور خود، دستور `git clone https://github.com/mdrazamani/talashcrm.git` را اجرا کنید
 
 ------------------------------
 
